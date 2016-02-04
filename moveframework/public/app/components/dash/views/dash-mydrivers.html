@@ -1,0 +1,103 @@
+<!--Main contents starts here-->
+<div class="am-content">
+<div class="main-content">
+  <!--+general-chart("classes", "title", "height", "id", "counter value", "counter desc", tools enabled (use true or false))-->
+<div class="row">
+    <div class="col-xs-12">
+    <button data-toggle="modal" data-target="#form-bp1" type="button" class="btn btn-space btn-primary pull-right">Add new Driver</button>
+    <div class="btn-group btn-hspace btn-space pull-right">
+              <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Drivers<span class="caret"></span></button>
+              <ul role="menu" class="dropdown-menu">
+                <li><a href="#">Your Drivers</a></li>
+                <li><a href="#">Drivers in your area</a></li>
+              </ul>
+            </div>
+  </div>
+<div class="col-sm-12">
+              <div class="widget widget-fullwidth widget-small">
+                <div class="widget-head">
+                  <div class="title">Your Drivers</div>
+                </div>
+                <div class="table-responsive">
+                  <table class="table table-striped table-fw-widget table-hover">
+                    <thead>
+                      <tr>
+                        <th width="20%">Driver</th>
+                        <th width="25%">Vehicle</th>
+                        <th width="10%">Base</th>
+                        <th width="10%">Rating</th>
+                        <th width="10%" class="number">View</th>
+                      </tr>
+                    </thead>
+                    <tbody class="no-border-x">
+                      <tr>
+                        <td class="user-avatar"> <img src="assets/img/avatar4.jpg">Claire Sassu</td>
+                        <td>Mercedes 3.5 tone luton</td>
+                        <td>Wimbledon</td>
+                        <td>9/10</td>
+                        <td class="number"><a ng-href="driver-profile">View info</a></td>
+                      </tr>
+                      <tr>
+                        <td class="user-avatar"> <img src="assets/img/avatar3.jpg">Joel King</td>
+                        <td>Mercedes 3.5 tone luton</td>
+                        <td>Wimbledon</td>
+                        <td>9/10</td>
+                        <td class="number"><a ng-href="driver-profile">View info</a></td>
+                      </tr>
+                      <tr>
+                        <td class="user-avatar"> <img src="assets/img/avatar7.jpg">Maggie Jackson</td>
+                        <td>Ford 3.5 tone luton</td>
+                        <td>Wimbledon</td>
+                        <td>7/10</td>
+                        <td class="number"><a ng-href="driver-profile">View info</a></td>
+                      </tr>
+                      <tr>
+                        <td class="user-avatar"> <img src="assets/img/avatar6.jpg">Mike Bolthort</td>
+                        <td>Ford Focus</td>
+                        <td>Merton</td>
+                        <td>8/10</td>
+                        <td class="number"><a ng-href="driver-profile">View info</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+</div>
+    </div>
+</div>
+<!--Main contents ends here-->
+
+
+<!-- Create Ticket Form -->
+
+<div id="form-bp1" tabindex="-1" role="dialog" class="modal fade colored-header">
+      <div class="modal-dialog custom-width">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" data-dismiss="modal" aria-hidden="true" class="close md-close"><i class="icon s7-close"></i></button>
+            <h3 class="modal-title">Create ticket</h3>
+          </div>
+          <div class="modal-body form">
+            <div class="form-group">
+              <label>Email address</label>
+              <input type="email" placeholder="username@example.com" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="subject" placeholder="Ticket Subject" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Description</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" class="btn btn-default md-close">Cancel</button>
+            <button type="button" data-dismiss="modal" class="btn btn-primary md-close">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Create Ticket form-->
